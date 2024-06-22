@@ -24,8 +24,8 @@ Then flash the iso onto a USB using https://etcher.balena.io/
 Audio maybe? I can't test that in a vm
 ## Untested features
 RN it works in a VM
+The rest is untested
 
-
-### If something goes wrong
+## If something goes wrong
 Discord balaro4242
 Or if Discord doesn't work... Instagram https://www.instagram.com/balaro4242/ (don't kill me for this)
