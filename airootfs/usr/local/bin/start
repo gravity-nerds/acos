@@ -6,7 +6,7 @@ then
 else
     mkfs.ext4 /dev/sda
 fi
-mount /dev/sda /acmenu/game_store/
+mount /dev/sda /acmenu/game_storage/
 cd /acmenu/acmenu/
 python3 .
 
