@@ -1,0 +1,12 @@
+#!/bin/bash
+device0="/dev/sda"    # /   (root directory)
+if [ -b "$device0" ]
+then
+    echo "formated"
+else
+    mkfs.ext4 /dev/sda
+fi
+mount /dev/sda /acmenu/game_score/
+cd /acmenu/acmenu/
+python3 .
+
