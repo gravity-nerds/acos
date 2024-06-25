@@ -15,7 +15,7 @@ Need https://gitlab.archlinux.org/archlinux/archiso and archlinux (pacman at lea
     sudo pacman -S archiso
     git clone https://github.com/gravity-nerds/acos && cd acos
     cd airootfs && git clone https://github.com/gravity-nerds/acmenu
-    cd .. && sudo mkdir /tmp/work && sudo mkarchiso -v -w /tmp/work/ -o acos/out/ acos/
+    cd .. && sudo mkdir /tmp/work && sudo mkarchiso -v -w /tmp/work/ -o out/ ./
 wait for your PC to melt, it might spit out an iso named `arog_linux-DATE.iso`
 
 Then flash the iso onto a USB using https://etcher.balena.io/
